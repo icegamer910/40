@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
+
+<!--Link game.js e player.js-->
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+  <script>
+    const firebaseConfig = {
+  apiKey: "AIzaSyCFjxZj0JpymS3SF-kykoCM_Fb8FFP2F4Y",
+  authDomain: "colete-as-frutas.firebaseapp.com",
+  databaseURL: "https://colete-as-frutas-default-rtdb.firebaseio.com",
+  projectId: "colete-as-frutas",
+  storageBucket: "colete-as-frutas.appspot.com",
+  messagingSenderId: "555544983044",
+  appId: "1:555544983044:web:dee13ed1ab72a866782751"
+};
+
+firebase.initializeApp(firebaseConfig);
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
